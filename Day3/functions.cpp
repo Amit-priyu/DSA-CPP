@@ -12,14 +12,7 @@ int factorial(int n){
     return ans;
 }
 
-/*
-functions.cpp: In function 'int main()':
-functions.cpp:21:39: error: invalid operands of types 'int' and '<unresolved overloaded function type>' to binary 'operator<<'
-   21 |     float ans=fact_n/(fact_r*fact_n_r)<<endl;
-      |               ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
-PS C:\Users\Amit Priyu\OneDrive\Desktop\cpp and Dsa\Day3> 
 
-*/
 int main(){
     int n,r; cin>>n>>r;
 
