@@ -4,6 +4,8 @@ using namespace std;
 int main(){
     int a[6] = {1, 2, 3};
     cout << a <<" "<< &a;
+    // 1,2,3 garbage value. 1000.
+    // 1,2,3, 1000
 
     /*
     
